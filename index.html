@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Check SMS Balance</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-      background-color: #f4f4f4;
-    }
-    h1 {
-      color: #333;
-    }
-    .warning {
-      color: red;
-      font-weight: bold;
-      margin-bottom: 15px;
-    }
-    .btn {
-      background-color: #28a745;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-      font-size: 18px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    .btn:hover {
-      background-color: #218838;
-    }
-    .url-box {
-      margin-top: 20px;
-    }
-    input[type="text"] {
-      width: 90%;
-      max-width: 600px;
-      padding: 10px;
-      font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Daily SMS Balance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .warning {
+            color: red;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        p {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #28a745;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            opacity: 0.8;
+        }
+        .link-container {
+            margin-top: 20px;
+        }
+        .link-box {
+            width: 80%;
+            max-width: 600px;
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+    </style>
 </head>
 <body>
-  <h1>Check Today's SMS Balance</h1>
-  <p class="warning">LONG-PRESS OR RIGHT CLICK THE BUTTON BELOW and OPEN in an INCOGNITO TAB.</p>
-  <a href="https://script.google.com/macros/s/AKfycbxzeWAhHyObe6Jrb95F1WONabWg5rHx0cG5D8XbUo-T5FGhZF-DgMBkOQCAC48_3v8/exec" target="_blank" class="btn">CLICK HERE TO VIEW SMS BALANCE</a>
-  <div class="url-box">
-    <p>If the button does not open the window, copy the URL below and open it in an Incognito tab:</p>
-    <input type="text" value="https://script.google.com/macros/s/AKfycbxzeWAhHyObe6Jrb95F1WONabWg5rHx0cG5D8XbUo-T5FGhZF-DgMBkOQCAC48_3v8/exec" readonly>
-  </div>
+    <h1>Check Daily SMS Balance</h1>
+    <p class="warning">LONG-PRESS OR RIGHT CLICK THE BUTTON BELOW and OPEN in an INCOGNITO TAB.</p>
+    <p>Click the button below to check daily SMS balance. If the page does not open, copy the link and open it in an incognito tab.</p>
+    <div class="button-container">
+        <a href="https://script.google.com/macros/s/AKfycbzWHVugafy2nxe_Gt6k-GQFx6TdF916R_MwG7lmEr3h1vbqfMaEp3tHF9FOVgoPKnXabQ/exec" class="btn">Check Balance</a>
+    </div>
+    <div class="link-container">
+        <input type="text" class="link-box" value="https://script.google.com/macros/s/AKfycbzWHVugafy2nxe_Gt6k-GQFx6TdF916R_MwG7lmEr3h1vbqfMaEp3tHF9FOVgoPKnXabQ/exec" readonly>
+    </div>
 </body>
 </html>
